@@ -13,6 +13,6 @@ public:
     void SetDimension(const double value1);
     void SetDimension(const double value1, const double value2, const double value3);
 
-    virtual void ShowArea() const;
-    virtual void ShowLens() const;
+    virtual void ShowArea() const = 0;
+    virtual void ShowLens() const = 0;
 };
